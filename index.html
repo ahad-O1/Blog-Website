@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome 6 (Latest CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ========== Start header-Section ========== -->
+    <header class="header-section">
+        <div class="logo">
+            <a href="#">
+                <img src="img/logoauthor.png" alt="" class="logo-img">
+            </a>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <ul class="navbar-list">
+                <li data-target="#hero-Section">Home</li>
+                <li data-target="#About">About</li>
+                <li data-target="#chapter">Chapter</li>
+                <li data-target="#reviews">Reviews</li>
+                <li data-target="#mybooks">My Books</li>
+                <li data-target="#author">Author</li>
+                <li data-target="#contact">Contact</li>
+            </ul>
+        </nav>
+
+        <!-- Hamburger (default) -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- Close button (hidden by default) -->
+        <div class="close-hamburger" onclick="toggleMenu()">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </header>
+    <!-- ========== End header-Section ========== -->
+
+    <!-- ========== Start hero-Section ========== -->
+    <section id="hero-Section">
+        <div class="first-portion">
+            <div class="left-hero">
+                <p class="hero-para">
+                    best seller book of the week
+                </p>
+                <h2 class="hero-heading">
+                    Clue of the wooden cottage
+                </h2>
+                <p class="hero-para2">
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia. it is
+                    a
+                    paradisematic country,in which roasted parts of sentences fly into your mouths
+                </p>
+                <button class="hero-btn">
+                    buy now for $22.78
+                </button>
+            </div>
+            <div class="right-hero">
+                <img src="img/undraw_book_lover_mkck (1).svg" alt="">
+            </div>
+        </div>
+        <div class="second-portion">
+            <div class="hero-logos"><img src="img/microsoft.png" alt="1st-logo"></div>
+            <div class="hero-logos"><img src="img/google.png" alt="2nd-img"></div>
+            <div class="hero-logos"><img src="img/java.png" alt="3rd-logo"></div>
+            <div class="hero-logos"><img src="img/andriod.png" alt="4th-logo"></div>
+            <div class="hero-logos"><img src="img/adobe.png" alt="5th-logo"></div>
+        </div>
+    </section>
+    <!-- ========== End hero-Section ========== -->
+
+    <!-- ========== Start About-Section ========== -->
+    <section class="About-section" id="About">
+        <div class="first-section">
+            <div class="img-part">
+                <img src="img/aboutpicture.png" alt="">
+            </div>
+            <div class="content-part">
+                <h2 class="content-heading">
+                    About The Book
+                </h2>
+                <p class="content-para">A small river named Duden flows by their place and supplies it with the
+                    necessary
+                    regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+                <h4 class="content-heading1">Award achievements</h4>
+                <p class="content-para">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                    the
+                    Semantics, a large language ocean.
+                </p>
+                <h4 class="content-heading1">Read On Any Devices</h4>
+                <p class="content-para">Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                    large
+                    language ocean.
+                </p>
+                <h4 class="content-heading1">Very High Resolution</h4>
+                <p class="content-para">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.
+                </p>
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="details">
+                <h1 class="details-heading">1,100</h1>
+                <p class="details-para">Copies Sold</p>
+            </div>
+            <div class="details">
+                <h1 class="details-heading">1,200</h1>
+                <p class="details-para">Copies Released</p>
+            </div>
+            <div class="details">
+                <h1 class="details-heading">340</h1>
+                <p class="details-para">Cup Of Coffee</p>
+            </div>
+            <div class="details">
+                <h1 class="details-heading">12,000</h1>
+                <p class="details-para">Happy Readers</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- ========== End About-Section ========== -->
+
+    <!-- ========== Start Chapter-Section ========== -->
+    <section class="chapter-section" id="chapter">
+        <h1 class="chapter-heading">
+            What's Inside The Book
+        </h1>
+        <div class="chapters">
+            <div class="left-chapter" id="list">
+                <ul class="chapter-list">
+                    <li id="list"><a href="#title" class="active">Title</a></li>
+                    <li id="list"><a href="#copyright">Copyright</a></li>
+                    <li id="list"><a href="#tablecontents">Table Of Contents</a></li>
+                    <li id="list"><a href="#dedication">Dedication</a></li>
+                    <li id="list"><a href="#foreword">Foreword</a></li>
+                    <li id="list"><a href="#prologue">Prologue</a></li>
+                    <li id="list"><a href="#epilogue">Epilogue</a></li>
+                    <li id="list"><a href="#epigraph">Epigraph</a></li>
+                </ul>
+            </div>
+            <div class="right-chapter">
+                <div class="chapter-content">
+                    <div class="chapter-item" id="title">
+                        <h1 class="heading-1">
+                            Title Page
+                        </h1>
+                        <p class="para-1">On her way she met a copy. The copy warned the Little Blind Text, that where
+                            it
+                            came from it would have been rewritten a thousand times and everything that was left from
+                            its
+                            origin would be the word "and" and the Little Blind Text should turn around and return to
+                            its
+                            own, safe country. But nothing the copy said could convince her and so it didn’t take long
+                            until
+                            a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
+                            her
+                            into their agency, where they abused her for their.</p>
+                    </div>
+
+                    <div class="chapter-item" id="copyright">
+                        <h1 class="heading-1">
+                            Copyright
+                        </h1>
+                        <p class="para-1">On her way she met a copy. The copy warned the Little Blind Text, that where
+                            it
+                            came from it would have been rewritten a thousand times and everything that was left from
+                            its
+                            origin would be the word "and" and the Little Blind Text should turn around and return to
+                            its
+                            own, safe country. But nothing the copy said could convince her and so it didn’t take long
+                            until
+                            a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
+                            her
+                            into their agency, where they abused her for their.</p>
+                    </div>
+                    <div class="chapter-item" id="tablecontents">
+                        <h1 class="heading-1">
+                            Table of Contents
+                        </h1>
+                        <p class="para-1">On her way she met a copy. The copy warned the Little Blind Text, that where
+                            it
+                            came from it would have been rewritten a thousand times and everything that was left from
+                            its
+                            origin would be the word "and" and the Little Blind Text should turn around and return to
+                            its
+                            own, safe country. But nothing the copy said could convince her and so it didn’t take long
+                            until
+                            a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
+                            her
+                            into their agency, where they abused her for their.</p>
+                    </div>
+                    <div class="chapter-item" id="dedication">
+                        <h1 class="heading-1">
+                            Dedication
+                        </h1>
+                        <p class="para-1">On her way she met a copy. The copy warned the Little Blind Text, that where
+                            it
+                            came from it would have been rewritten a thousand times and everything that was left from
+                            its
+                            origin would be the word "and" and the Little Blind Text should turn around and return to
+                            its
+                            own, safe country. But nothing the copy said could convince her and so it didn’t take long
+                            until
+                            a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
+                            her
+                            into their agency, where they abused her for their.</p>
+                    </div>
+                    <div class="chapter-item" id="foreword">
+                        <h1 class="heading-1">
+                            Foreword
+                        </h1>
+                        <p class="para-1">On her way she met a copy. The copy warned the Little Blind Text, that where
+                            it
+                            came from it would have been rewritten a thousand times and everything that was left from
+                            its
+                            origin would be the word "and" and the Little Blind Text should turn around and return to
+                            its
+                            own, safe country. But nothing the copy said could convince her and so it didn’t take long
+                            until
+                            a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
+                            her
+                            into their agency, where they abused her for their.</p>
+                    </div>
+                    <div class="chapter-item" id="prologue">
+                        <h1 class="heading-1">
+                            Prologue
+                        </h1>
+                        <p class="para-1">On her way she met a copy. The copy warned the Little Blind Text, that where
+                            it
+                            came from it would have been rewritten a thousand times and everything that was left from
+                            its
+                            origin would be the word "and" and the Little Blind Text should turn around and return to
+                            its
+                            own, safe country. But nothing the copy said could convince her and so it didn’t take long
+                            until
+                            a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
+                            her
+                            into their agency, where they abused her for their.</p>
+                    </div>
+                    <div class="chapter-item" id="epilogue">
+                        <h1 class="heading-1">
+                            Epilogue
+                        </h1>
+                        <p class="para-1">On her way she met a copy. The copy warned the Little Blind Text, that where
+                            it
+                            came from it would have been rewritten a thousand times and everything that was left from
+                            its
+                            origin would be the word "and" and the Little Blind Text should turn around and return to
+                            its
+                            own, safe country. But nothing the copy said could convince her and so it didn’t take long
+                            until
+                            a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
+                            her
+                            into their agency, where they abused her for their.</p>
+                    </div>
+                    <div class="chapter-item" id="epigraph">
+                        <h1 class="heading-1">
+                            Epigraph
+                        </h1>
+                        <p class="para-1">On her way she met a copy. The copy warned the Little Blind Text, that where
+                            it
+                            came from it would have been rewritten a thousand times and everything that was left from
+                            its
+                            origin would be the word "and" and the Little Blind Text should turn around and return to
+                            its
+                            own, safe country. But nothing the copy said could convince her and so it didn’t take long
+                            until
+                            a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
+                            her
+                            into their agency, where they abused her for their.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Chapter-Section ========== -->
+
+    <!-- ========== Start services-Section ========== -->
+    <section class="services-Section">
+        <h4 class="first-heading">Services</h4>
+        <h1 class="second-heading">Services</h1>
+        <div class="service-card">
+            <div class="first-card">
+                <div class="resume-img">
+                    <img src="img/resume.png" alt="card-img">
+                </div>
+                <h2 class="card-heading">Experience</h2>
+                <p class="card-para">A small river named Duden flows by their place and supplies it with the necessary
+                    regelialia.</p>
+            </div>
+            <div class="second-card">
+                <div class="resume-img">
+                    <img src="img/networking.png" alt="card-img">
+                </div>
+                <h2 class="card-heading">Experience</h2>
+                <p class="card-para">A small river named Duden flows by their place and supplies it with the
+                    necessary
+                    regelialia.</p>
+            </div>
+            <div class="third-card">
+                <div class="resume-img">
+                    <img src="img/lamp.png" alt="">
+                </div>
+                <h2 class="card-heading">Experience</h2>
+                <p class="card-para">A small river named Duden flows by their place and supplies it with the
+                    necessary
+                    regelialia.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ========== End services-Section ========== -->
+    <!-- ========== Start Reviews-Section ========== -->
+    <section class="review-section" id="reviews">
+        <div class="review-heading3">
+            <h4 class="review-heading">Testimonial</h4>
+            <h1 class="review-heading2">Kinds Words From Customers</h1>
+        </div>
+    </section>
+    <div class="carousel-container">
+        <div class="Testimonial-cards" id="testimonialCards">
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott1</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott2</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott3</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott4</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott5</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott6</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Duplicate cards for seamless loop -->
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott1</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott2</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott3</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott4</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott5</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="symbol">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.
+                </p>
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="img/avator2.png" alt="Roger Scott">
+                    </div>
+                    <div class="profile-data">
+                        <strong>Roger Scott6</strong>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End Reviews-Section ========== -->
+    <!-- ========== Start Books-Section ========== -->
+    <section class="Books-Section" id="mybooks">
+        <h4 class="book-heading">Projects</h4>
+        <h1 class="book-heading2">My Other Books</h1>
+
+        <div class="books-grid">
+            <div class="book-img">
+                <img src="img/b (1).jpg" alt="">
+                <div class="shadow">
+                    <h3>How You Your Only Limited Stoke</h3>
+                    <p>Study Purpose</p>
+                </div>
+            </div>
+            <div class="book-img">
+                <img src="img/b (2).jpg" alt="">
+                <div class="shadow">
+                    <h3>How You Your Only Limited Stoke</h3>
+                    <p>Study Purpose</p>
+                </div>
+            </div>
+            <div class="book-img">
+                <img src="img/b (3).jpg" alt="">
+                <div class="shadow">
+                    <h3>How You Your Only Limited Stoke</h3>
+                    <p>Study Purpose</p>
+                </div>
+            </div>
+            <div class="book-img">
+                <img src="img/b (4).jpg" alt="">
+                <div class="shadow">
+                    <h3>How You Your Only Limited Stoke</h3>
+                    <p>Study Purpose</p>
+                </div>
+            </div>
+            <div class="book-img">
+                <img src="img/b (1).jpg" alt="">
+                <div class="shadow">
+                    <h3>How You Your Only Limited Stoke</h3>
+                    <p>Study Purpose</p>
+                </div>
+            </div>
+            <div class="book-img">
+                <img src="img/b (2).jpg" alt="">
+                <div class="shadow">
+                    <h3>How You Your Only Limited Stoke</h3>
+                    <p>Study Purpose</p>
+                </div>
+            </div>
+            <div class="book-img">
+                <img src="img/b (3).jpg" alt="">
+                <div class="shadow">
+                    <h3>How You Your Only Limited Stoke</h3>
+                    <p>Study Purpose</p>
+                </div>
+            </div>
+            <div class="book-img">
+                <img src="img/b (4).jpg" alt="">
+                <div class="shadow">
+                    <h3>How You Your Only Limited Stoke</h3>
+                    <p>Study Purpose</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ========== End Books-Section ========== -->
+    <!-- ========== Start Author-Section ========== -->
+    <section class="author-section" id="author">
+
+        <div class="author-img">
+            <img src="img/authorimage.jpg" alt="autor-img">
+        </div>
+        <div class="author-form">
+            <h4 class="author-heading">Know more about the author</h4>
+            <h1 class="author-heading2">Franklin Henderson</h1>
+            <p class="author-para">A small river named Duden flows by their place and supplies it with the necessary
+                regelialia.</p>
+            <div class="author-bio">
+                <div class="author-data">
+                    <strong>Name:</strong>
+                    <p>Franklin Henderson</p>
+                </div>
+                <div class="author-data">
+                    <strong>Date of Birth:</strong>
+                    <p>November 28,1980</p>
+                </div>
+                <div class="author-data">
+                    <strong>Address:</strong>
+                    <p>
+                        San Francisco CA 97987 USA</p>
+                </div>
+                <div class="author-data">
+                    <strong>Zip Code:</strong>
+                    <p>1000</p>
+                </div>
+                <div class="author-data">
+                    <strong>Email:</strong>
+                    <p>franklinsample@gmail.com</p>
+                </div>
+                <div class="author-data">
+                    <strong>Phone:</strong>
+                    <p>+1-2234-5678-9-0</p>
+                </div>
+            </div>
+            <button class="author-btn">120 view all books</button>
+        </div>
+
+    </section>
+
+    <!-- ========== End Author-Section ========== -->
+    <!-- ========== Start Contact-Section ========== -->
+    <section class="contact-section" id="contact">
+        <div class="contact-content">
+            <h1 class="contact-heading">
+                Contact Me
+            </h1>
+            <p class="contact-para">Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia</p>
+        </div>
+        <div class="contact-numbers">
+            <div class="contact-cards">
+                <div class="logoscon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h1>Address</h1>
+                <p>198 West 21th,</p>
+            </div>
+            <div class="contact-cards">
+                <div class="logoscon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <h1>Contact Number</h1>
+                <p>198 West 21th,</p>
+            </div>
+            <div class="contact-cards">
+                <div class="logoscon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <h1>Email Address</h1>
+                <p>info@yoursite.com</p>
+            </div>
+            <div class="contact-cards">
+                <div class="logoscon">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </div>
+                <h1>Website</h1>
+                <p>yoursite.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== End Contact-Section ========== -->
+
+    <!-- ========== Start Map-Section ========== -->
+    <section class="map-section">
+        <div class="map">
+            <iframe scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=pakistan%20punjab%20taxila+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                width="100%" height="600" frameborder="0"><a
+                    href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on
+                    map</a></iframe>
+        </div>
+        <div class="user-info">
+            <form action="####" class="form-data">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email Addres">
+                <input type="text" placeholder="Subject/Titte">
+                <textarea name="text" id="userinfo" placeholder="type your message"></textarea>
+            </form>
+            <button class="map-btn">Send Message</button>
+        </div>
+
+    </section>
+    <!-- ========== End Map-Section ========== -->
+    <!-- ========== Start Footer-Section ========== -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- About -->
+            <div class="footer-col">
+                <h3>About</h3>
+                <p>Far Far away, Behind the world mountains, far from the countries vokalia and consonantia,
+                    there live the blind texts.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-col">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Chapter</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Marketing Goals</a></li>
+                    <li><a href="#">Targetting Vision</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-col">
+                <h3>Have a Questions?</h3>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i> Lorem ipsum dolor sit amet.</li>
+                    <li><i class="fa-solid fa-phone"></i> +92303 5568729</li>
+                    <li><i class="fa-solid fa-envelope"></i> abc@yourdomains.com</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Bottom copyright -->
+        <div class="footer-bottom">
+            <p>Copyright © 2023 All right reserved | This Template is made with by khawajas</p>
+        </div>
+    </footer>
+
+    <!-- ========== End Footer-Section ========== -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
